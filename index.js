@@ -61,7 +61,7 @@ function cool(updateFunction) {
   var status = "It has to cool! Hands off!"
   setTimeout(() => {
     this.decorate(updateFunction)
-  }.bind(this), 2000)
+  }, 2000)
 }
 
 function makeDessert() {
