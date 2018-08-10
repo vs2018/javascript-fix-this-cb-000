@@ -53,7 +53,7 @@ function mix(updateFunction) {
   var status = "Mixing " + this.ingredients.join(", ")
   setTimeout(() => {
     bake(updateFunction)
-  }, 2000)
+  }.bind(this), 2000)
   updateFunction(status)
 }
 
