@@ -31,7 +31,9 @@ function makeCake() {
 function makePie() {
   var updatePieStatus;
   mix(updatePieStatus)
-
+  function decorate () {
+    
+  }
 }
 
 function updateStatus(statusText) {
