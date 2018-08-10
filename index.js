@@ -8,9 +8,9 @@ var cake = {
   decorate: function(updateFunction) {
     var status = "Decorating with " + this.topping + ". Ready to eat soon!"
     updateFunction(status)
-    setTimeout(function() {
+    setTimeout(() => {
       updateFunction(serve.apply(this, "Happy Eating!", this.customer))
-    }.bind(cake), 2000)
+    }.bind(), 2000)
   }
 }
 
