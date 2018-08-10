@@ -10,7 +10,7 @@ var cake = {
     updateFunction(status)
     setTimeout(() => {
       updateFunction(serve.apply(this, "Happy Eating!", this.customer))
-    }.bind(), 2000)
+    }, 2000)
   }
 }
 
